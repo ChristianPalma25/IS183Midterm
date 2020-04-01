@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Christian Palma - IS183 Midterm</title>
+
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            position: relative;
+        }
+
+        body,
+        html {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        h2 {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        h2 {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .box-shadow {
+            -webkit-box-shadow: -1px 7px 23px -10px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: -1px 7px 23px -10px rgba(0, 0, 0, 0.75);
+            box-shadow: -1px 7px 23px -10px rgba(0, 0, 0, 0.75);
+        }
+
+        .main-container-grid {
+            display: grid;
+            grid-template-rows: 1fr 13fr 1fr;
+            height: 100%;
+            grid-row-gap: 1em;
+        }
+
+        .r1,
+        .r3 {
+            display: grid;
+            background-color: #9BC1BC;
+            padding: 1em;
+            align-items: center;
+        }
+
+        .r3 {
+            text-align: center;
+            color: #F4F1BB;
+        }
+
+        .r2 {
+            height: 100%;
+            background-color: #9BC1BC;
+        }
+
+
+        .c1 {
+            min-width: 200px;
+        }
+
+        .c1,
+        .c3 {
+            background-color: #F4F1BB;
+        }
+
+        .txt-center {
+            text-align: center;
+            margin: 15px auto 0px;
+        }
+
+        .left-nav {
+            list-style-type: none;
+        }
+
+        .left-nav>li>a {
+            display: block;
+            padding: 15px 0px 15px 30px;
+            background-color: #F4F1BB;
+            font-weight: bold;
+            text-decoration: none;
+            transition-duration: 0.7s;
+        }
+
+        .left-nav>li>a:hover {
+            background-color: #8d8c8c;
+        }
+
+
+        p {
+            margin: 15px 0px;
+            padding: 0px 150px 0px 150px;
+            color: #E6EBE0;
+        }
+
+        .h2-content {
+            grid-column: 1 / 5;
+            height: 22px;
+            width: 100%;
+        }
+
+        .c2>img {
+            width: 30%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+        .back-button {
+            padding: 10px 20px;
+            background-color: #CCC;
+            float: right;
+            margin-bottom: 15px;
+        }
+
+        .back-button:hover {
+            background-color: #f1f1f1;
+        }
+
+        .header-img {
+            width: 6%;
+        }
+    </style>
+</head>
+
+<body class="main-container-grid">
+    <div class="r1 box-shadow">
+        <img class="header-img" src="img/sm_logo.jpg">
+    </div>
+    <div class="r2 one-column">
+        <div class="c2">
+            <a href="./index.html" class="back-button">Back to Home</a>
+            <h2 class="txt-center">Company Information</h2>
+            <p>Gormet Coffee & Tea is a family owned company that has been in business for over 50 years in the United
+                States and Canada. We started as a small business in the 1950's and have expanded ever since. 
+            </p>
+
+            <p>We serve all kinds of coffee and tea, from hot and cold. We hand pick our coffee beans and ensure that
+                only the finest ingredients are used in our products.
+            </p>
+
+            <p>We always look forward to providing the best coffee and tea that money can buy. Along with excellent
+                customer service. Once you try our coffee and tea, you'll never want to drink anything else again.
+            </p>
+
+            <img class="box-shadow" src="./img/sm_logo.jpg">
+        </div>
+    </div>
+    <div class="r3">
+        Copyright 2020 - Created by Christian Palma. For educational purpose only! No orders shall be fulfilled.
+    </div>
+</body>
